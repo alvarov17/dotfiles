@@ -50,7 +50,10 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   use "numToStr/Comment.nvim" -- Comment pluggin
-  use "JoosepAlviste/nvim-ts-context-commentstring"
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- Comment pluggin
+	use "akinsho/toggleterm.nvim"
+  use "jose-elias-alvarez/null-ls.nvim"
+  use "nvim-telescope/telescope-media-files.nvim"
 
   -- Colorschemes
   use "lunarvim/colorschemes"
